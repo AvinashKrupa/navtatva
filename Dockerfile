@@ -5,3 +5,7 @@ COPY . ./
 EXPOSE 3000
 RUN npm install
 CMD ["npm", "run", "dev"]
+RUN npm build
+CMD ["npm", "run", "dev"]
+
+

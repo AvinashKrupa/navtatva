@@ -1,4 +1,4 @@
-# Stage-1
+# Stage 1
 FROM node:16.1 as react-build
 WORKDIR /app
 COPY . ./
